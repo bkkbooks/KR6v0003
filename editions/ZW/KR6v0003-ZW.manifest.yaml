@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6v0003/ZW/v1
+canonical_location: https://kanripo.org/bkk/KR6v0003/ZW/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 禪策問答
+  identifiers:
+    krp: KR6v0003
+    cbeta: ZW01n0002
+    cbeta_old_id: ZW01n0002
+    authorityid: CA0008364
+    json_key: ZW0002
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW01/ZW01n0002.xml
+    old_id: ZW01n0002
+  edition:
+    short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0003_000-ZW.yaml, hash: 'sha256:0b8a930ef54b1a7830fa75286fe3560e6105c2c70d8e1b88f55ad05c2d3986b4'}
+  - {seq: 1, filename: KR6v0003_001-ZW.yaml, hash: 'sha256:4e77cf281d908c5d1a0b95162f0c3261a216b49088c4def93d088887b4f69774'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0003_000-ZW.markers.yaml, hash: 'sha256:40b2329c27a136671d6d898b864e215b5ccad413a2bbbec3af53fa1a6529e381'}
+  - {seq: 1, role: markers, filename: assets/KR6v0003_001-ZW.markers.yaml, hash: 'sha256:8adf2f0c607b2b66fdb70224f290f8308d4b663238cced00d588b97b5f74d7ca'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0003_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0003_ZW_000-mulu-2
+    span:
+    - front
+    - 346
+    - 346
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0003_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 1989
+  label: 禪策問答一卷
+  type: juan
+  level: 1
+hash: sha256:5c397d0369fdb11a4d4dc2376f927cda6914afa2fd0899f7bb7369a89a524023

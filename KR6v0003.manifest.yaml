@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR6v0003/v1
+canonical_location: https://kanripo.org/bkk/KR6v0003/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 禪策問答
+  identifiers:
+    alt_id:
+    - W01n0002
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW01/ZW01n0002.xml
+    old_id: ZW01n0002
+  edition:
+    short: bkk
+editions:
+- short: 藏外
+  label: 藏外
+  source_xml_id: wit.orig
+- short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0003_000.yaml, hash: 'sha256:037755185305d2fc1811a8d6872b53adf527d629132eeef879308b005f956d83'}
+  - {seq: 1, filename: KR6v0003_001.yaml, hash: 'sha256:a5d0e4b183ce18bb64ed212c090792dd9b750596c9370d15a190ee0c305439f0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0003_000.markers.yaml, hash: 'sha256:a06bd71cc20dbad6494f66d136a24f02dd5f0652d50b428b341aca4b1b53fda5'}
+  - {seq: 1, role: markers, filename: assets/KR6v0003_001.markers.yaml, hash: 'sha256:aef496ab3c4ced553b92fe15d25f2117165c149b47a7e7151c54136b1500230d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0003_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0003_ZW_000-mulu-2
+    span:
+    - front
+    - 346
+    - 346
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0003_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 1989
+  label: 禪策問答一卷
+  type: juan
+  level: 1
+hash: sha256:8064a6af735e118453c8d40510955de6ab0d5bd35112973e2312084c76196751
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
